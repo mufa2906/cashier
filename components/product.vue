@@ -105,7 +105,7 @@ export default {
       setTimeout(() => {
         this.itemsSearch = this.products.filter(e => {
           this.isLoading= false;
-          this.resetSearchCategory()
+          this.resetSearchCategory();
           return e.title
       })
     },1000)
